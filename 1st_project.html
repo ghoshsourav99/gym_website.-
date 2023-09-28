@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first project</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url("images/background\ image.jpg");
+
+    }
+
+    .left {
+        /* border: 2px solid rgb(55, 232, 16); */
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 44px;
+    }
+
+    .left div {
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 0%;
+        line-height: 15px;
+        font-size: 20px;
+    }
+
+    .left img {
+        margin: 0%;
+        height: 50px;
+        width: 100px;
+    }
+
+    .middle {
+        /* border: 2px solid rgb(8, 8, 250); */
+        display: block;
+        width: 40%;
+        margin:55px auto;
+    }
+
+    .right {
+        /* border: 2px solid yellow; */
+        display: inline-block;
+        position: absolute;
+        top: 43px;
+        right: 53px;
+    }
+
+    .btn {
+        margin: 5px 10px;
+        background-color: black;
+        color: aliceblue;
+        border: 2px solid;
+        padding: 4px 14px;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-style: italic;
+    }
+
+    .btn:hover {
+        background-color: rgb(151, 188, 188);
+    }
+
+    .navbar {}
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 10px;
+        font-size: 23PX;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: greenyellow
+    }
+
+    .imgmap {
+        height: 65px;
+        width: 200px;
+    }
+
+    .container {
+        /* border: 2px solid green; */
+        margin: 50px 50px;
+        padding: 100px;
+        width: 260px;
+        border-radius: 20px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        margin: 5px auto;
+        border: 3px solid red;
+        padding: 7px;
+        width: 200px;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 200px;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images/logo.png" alt="logo for the website" height="50px" width="100px">
+            <div> sourav fitness</div>
+        </div>
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></a></li>
+                <li><a href="#">Fitness Calculator</a></a></li>
+                <li><a href="#">Contact Us</a></a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn"> Call us </button>
+            <button class="btn"> Mail us </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>UNLOCK THE REAL HUMAN IN YOU</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Gender">
+            </div>
+            <button class="btn">Submit here</button>
+        </form>
+    </div>
+</body>
+
+</html>
